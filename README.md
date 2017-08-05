@@ -1,7 +1,7 @@
 # record-on-retropie
 Experimental shell scripts to install ffmpeg and record on retropie. 
 
-This is an experimental script with no warranty or guarantee on whether or not it works. 
+This is an experimental script with no warranty or guarantee on whether or not it works. I haven't even tried it yet.
 
 Code is from http://selsine.com/2016/10/15/how-to-record-a-game-play-video-from-a-retropie/
 and https://retroresolution.com/2016/05/31/compiling-software-from-source-code-on-the-raspberry-pi-the-ffmpeg-suite/
@@ -13,9 +13,9 @@ After executing the script follow the directions at http://selsine.com/2016/10/1
 Installation Script
 ------------
 ```
-sh curl -L https://goo.gl/9eKrZa | bash
+sh curl -L https://goo.gl/GWSwuW | bash
 ```
 or
 ```
-wget --no-check-certificate https://goo.gl/9eKrZa -O - | bash
+wget --no-check-certificate https://goo.gl/GWSwuW -O - | bash
 ```
