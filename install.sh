@@ -28,4 +28,4 @@ sudo sh ~/home/pi/tools/ffmpeg-install.sh
 echo -e "rebuilding retropie"
 sh ~/home/pi/tools/build-retroarch-with-ffmpeg.sh
 
-sudo mv config.cfg ~/home/pi/RetroPie/recording
+sudo mv config.cfg ~/home/pi/RetroPie/recording/config.cfg
