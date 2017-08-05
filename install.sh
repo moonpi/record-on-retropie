@@ -13,19 +13,19 @@ sudo mkdir /home/pi/tools
 echo -e "Making recording directory in RetroPie folder"
 mkdir /home/pi/RetroPie/recording
 
-cd /home/pi/tools
-sudo git clone git://github.com/punkbass/record-on-retropie.git /home/pi/tools
+
+sudo git clone git://github.com/punkbass/record-on-retropie.git ~/home/pi/tools
 
 
-sudo chmod +x ffmpeg-install.sh
-sudo chmod +x /home/pi/tools/build-retroarch-with-ffmpeg.sh
+sudo chmod +x ~/home/pi/tools/ffmpeg-install.sh
+sudo chmod +x ~/home/pi/tools/build-retroarch-with-ffmpeg.sh
 
 echo -e "installing ffmpeg codecs for recording"
-sudo /home/pi/tools/ffmpeg-install.sh
+sudo sh ~/home/pi/tools/ffmpeg-install.sh
 
 # Rebuild RetroPie
 
 echo -e "rebuilding retropie"
-/home/pi/tools/build-retroarch-with-ffmpeg.sh
+sh ~/home/pi/tools/build-retroarch-with-ffmpeg.sh
 
 sudo mv config.cfg ~/home/pi/RetroPie/recording
