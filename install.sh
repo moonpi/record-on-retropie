@@ -14,7 +14,7 @@ echo -e "Making recording directory in RetroPie folder"
 mkdir /home/pi/RetroPie/recording
 
 
-sudo git clone git://github.com/punkbass/record-on-retropie.git ~/home/pi/tools
+sudo git clone git://github.com/moonpi/record-on-retropie.git ~/home/pi/tools
 
 
 sudo chmod +x ~/home/pi/tools/ffmpeg-install.sh
